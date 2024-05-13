@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.design{
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+}
+
+/* 
+ & Task1 -------------- Simple Square------------------ 
+*/
+
+#task1{
+    background-color: #5d3a3a;
+}
+
+
+#task1 div{
+    width: 200px;
+    height: 200px;
+    background-color: #b5e0ba;
+}
+
+
+/* 
+& Task2 -------------------- Carrom---------------------
+
+*/
+
+#task2{
+    background-color: #62374e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#task2 section div{
+    width: 50px;
+    height: 50px;
+    background-color: #fdc57b;
+}
+
+#task2 section{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px 200px
+}
+
+
+/*
+ & Task3 ---------------- Push Button---------------
+ */
+
+ #task3, #task3 div{
+    background-color: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #task3 div{
+    width:300px;
+    height:150px;
+    background-color: #243D83;
+ }
+
+ #task3 div div {
+    width:250px;
+    height:250px;
+    border-radius:150px;
+    background-color: #6592CF;
+
+ }
+
+ #task3 div div div{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    background:#243D83;
+ }
+ #task3 div div div div{
+    width:50px;
+    height:50px;
+    border-radius:150px;
+    background:#EEB850;
+ }
+
+
+ /*
+ & Task 4 ------------------  Ups and Down ---------------------------------- 
+ */
+
+ #task4 {
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #task4 section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+
+ #task4 section div{
+    width: 100px ;
+    height: 100px;
+    background-color: #F7EC7D;
+ }
+ 
+ #task4 section div:nth-child(odd){
+    background-color: #62306D;
+ }
+
+ #task4 section :nth-child(2){
+    border-radius: 100px 100px 0 0 ;
+ }
+
+ #task4  section .down{
+    border-radius: 0 0 100px 100px;
+ }
