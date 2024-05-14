@@ -1,0 +1,30 @@
+#task7, #task7 section{
+    background-color: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#task7 section{
+    height: 150px;
+    position: relative;
+}
+
+#task7 section div{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100px 0;
+    background-color: #998235;
+}
+
+#task7 section :first-child{
+    right: -25px;
+    background-color: #1A4341;
+}
+
+#task7 section :nth-child(2){
+    left: -25px;
+    background-color: #F3AC3C;
+    z-index: 1;
+}

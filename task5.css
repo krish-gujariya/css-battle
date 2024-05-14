@@ -1,0 +1,39 @@
+/* 
+ & Task%5   ------------- Acid Rain --------------------------
+*/
+#task5{
+    background-color:#0B2429;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#task5 section{
+    width: 240px;
+    height: 240px;
+    position: relative;
+}
+
+ #task5 section div {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 100px 0 100px 100px;
+    background-color: #F3AC3C;
+}
+
+ #task5 section div:first-child{
+    top: 0;
+    right: 0;
+    border-radius: 100%;
+}
+
+ #task5 section div:nth-child(2){
+    bottom: 60px;
+    left: 60px;
+    background-color: #998235;
+}
+
+ #task5 section div:last-child{
+    bottom: 0;
+}

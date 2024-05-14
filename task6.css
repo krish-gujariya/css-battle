@@ -1,0 +1,31 @@
+/*
+ & Task6 ---------------- Missing Piece --------------------
+*/
+
+#task6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3516E;
+}
+
+#task6 section {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#task6 section div{
+    width: 100px;
+    height: 100px;
+    background-color: #E3516E;
+}
+
+#task6 section :first-child{
+    background-color: #51B5A9;
+}
+
+#task6 section :nth-child(2){ background-color: #FADE8B;}
+
+#task6 section :nth-child(3){ background-color: #F7F3D7}
